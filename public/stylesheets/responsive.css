@@ -48,7 +48,8 @@
   }
 
   .navbar .nav.pull-right {
-      float: none;
+      margin-top: 5px;
+      float: right;
       clear: both;
   }
 

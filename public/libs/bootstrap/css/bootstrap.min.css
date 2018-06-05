@@ -4010,6 +4010,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 }
 
 .navbar .nav.pull-right {
+    margin-top: 5px;
     float: right;
     margin-right: 0
 }
