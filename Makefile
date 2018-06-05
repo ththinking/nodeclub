@@ -12,7 +12,7 @@ install:
 
 pretest:
 	@if ! test -f config.js; then \
-		cp config.default.js config.js; \
+		cp config.js config.js; \
 	fi
 	@if ! test -d public/upload; then \
 		mkdir public/upload; \
