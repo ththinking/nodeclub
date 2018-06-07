@@ -43,7 +43,7 @@ exports.peruserperday = makePerDayLimiter('peruserperday', function (req) {
 });
 
 exports.peripperday = makePerDayLimiter('peripperday', function (req) {
-  var realIP = req.get('x-real-ip') ? req.get('x-real-ip') : "127.0.0.1";;
+  var realIP = req.get('x-real-ip') ? req.get('x-real-ip') : "39.105.129.254";;
   if (!realIP) {
     throw new Error('should provice `x-real-ip` header')
   }
